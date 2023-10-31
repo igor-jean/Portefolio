@@ -16,13 +16,13 @@ $pageActuelle = $_SERVER["PHP_SELF"];
             <nav>
                 <ul>
                     <li>
-                        <a href="index.php" <?php if($pageActuelle == "/php/portefolio/index.php"){echo "class='navGras'";} ?> tittle="Page D'accueil">Accueil</a>
+                        <a href="index.php" <?php if($pageActuelle == "/index.php"){echo "class='navGras'";} ?> title="Page D'accueil">Accueil</a>
                     </li>
                     <li>
-                        <a href="cv.php" <?php if($pageActuelle == "/php/portefolio/cv.php"){echo "class='navGras'";} ?> tittle="Page de CV" >CV</a>
+                        <a href="cv.php" <?php if($pageActuelle == "/cv.php"){echo "class='navGras'";} ?> title="Page de CV" >CV</a>
                     </li>
                     <li>
-                        <a href="contact.php" <?php if($pageActuelle == "/php/portefolio/contact.php"){echo "class='navGras'";} ?> tittle="Page Contact">Contact</a>
+                        <a href="contact.php" <?php if($pageActuelle == "/contact.php"){echo "class='navGras'";} ?> title="Page Contact">Contact</a>
                     </li>
                 </ul>
             </nav>
